@@ -1,0 +1,7 @@
+
+<div class="container">
+    <button class="btn btn-primary" (click)="remove()">complete</button>
+    <br>
+    <br>
+    <app-c2 *ngFor = "let person of persons" [person]="person"></app-c2>
+</div>
